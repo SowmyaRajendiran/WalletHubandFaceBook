@@ -26,7 +26,7 @@ public class FacebookTest extends BaseMethodInitialization  {
 	 */
 	public void Validate_FaceBookLandingPage_SignIn() throws IOException 
 	{
-		log.info("User Sign In to FaceBook Account");
+		log.info("User Sign In to FaceeBook Account");
 		FaceBookPage FBPage= new FaceBookPage(driver);
 	    //Method for Validating SignIn
 		FBPage.SignIn();
